@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa</title>
+</head>
+<body>
+    <header>
+        <h2>Tarefa</h2>
+    </header>
+            <nav id="buttons">
+            <a href="index.html"><button>Início</button></a>
+        </nav>
+
+    <section>
+        <form action="tarefa">
+            <h2>Dados pessoais:</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" name="idade" required>
+            <h2>Vagas:</h2>
+            <label for="vaga">Qual vaga deseja se candidatar?</label>
+            <input type="radio" id="informatica" name="fav_language" value="informatica">
+            <label for="informatica">Informatica</label>
+            <input type="radio" id="matematica" name="fav_language" value="matematica">
+            <label for="matematica">Matemática</label>
+            <input type="radio" id="portugues" name="fav_language" value="portugues">
+            <label for="portugues">Português</label>
+            <input type="radio" id="biologia" name="fav_language" value="biologia">
+            <label for="biologia">Biologia</label>
+            <input type="radio" id="quimica" name="fav_language" value="quimica">
+            <label for="quimica">Química</label>
+            <input type="radio" id="historia" name="fav_language" value="historia">
+            <label for="historia">História</label>
+            <input type="radio" id="geografia" name="fav_language" value="geografia">
+            <label for="geografia">Geografia</label>
+            <input type="radio" id="artes" name="fav_language" value="artes">
+            <label for="artes">Artes</label>
+
+            <h2>Disponibilidade</h2>
+                <label for="turno">Qual turno tem disponibilidade?</label>
+                <input type="radio" id="manha" name="fav_language" value="manha">
+                <label for="manha">Manhã</label>
+                <input type="radio" id="tarde" name="fav_language" value="tarde">
+                <label for="tarde" id="tarde">Tarde</label>
+                <input type="radio" id="noite" name="fav_language" value="noite">   
+                <label for="noite" id="noite">Noite</label>
+            
+            <h2>Curso Superior</h2>
+            <select name="nivel" id="nivel" required>
+                <option value="bacharel">Bacharel</option>
+                <option value="bacharel">Mestrado</option>
+                <option value="bacharel">Doutorado</option>
+            </select>
+            <select name="escolaridade" id="escolaridade" required>
+                <option value="Concluido">Concluido</option>
+                <option value="Cursando">Cursando</option>
+            </select>
+
+        <textarea name="descricao" id="descricao" cols="30" rows="10" required></textarea>
+        <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+</body>
+</html>
