@@ -1,0 +1,35 @@
+.container {
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 1pxs;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.box {
+    border: solid 3px #000;
+    border-radius: 50% 0 50% 0;
+    height: 100px;
+    width: 100px;
+}
+
+#box1 {
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+}
+
+#box2 {
+    background-color: chocolate;
+}
+
+#box3 {
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+}
